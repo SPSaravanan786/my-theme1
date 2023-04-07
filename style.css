@@ -1,0 +1,159 @@
+/*
+Theme Name: My-Theme 
+Theme URI: https://dhibicoders.com/
+Author: Your Name
+Author URI: https://dhibicoders.com/
+Description: A brief description of your theme
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: your-theme
+*/
+
+/* Reset Styles */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* Global Styles */
+body {
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+	color: #333;
+	background-color: #f7f7f7;
+}
+
+a {
+	color: #007bff;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #0056b3;
+	text-decoration: underline;
+}
+
+/* Header Styles */
+.site-header {
+	background-color: #fff;
+	padding: 20px;
+	border-bottom: 1px solid #ddd;
+}
+
+.site-title {
+	font-size: 24px;
+	margin: 0;
+}
+
+.site-description {
+	font-size: 16px;
+	margin: 0;
+	color: #888;
+}
+
+/* Navigation Styles */
+.site-navigation {
+	background-color: #f7f7f7;
+	border-bottom: 1px solid #ddd;
+}
+
+.main-navigation {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.main-navigation li {
+	display: inline-block;
+	margin-right: 20px;
+}
+
+.main-navigation li:last-child {
+	margin-right: 0;
+}
+
+.main-navigation a {
+	display: block;
+	padding: 10px;
+}
+
+.main-navigation a:hover {
+	background-color: #ddd;
+}
+
+/* Content Styles */
+.site-content {
+	padding: 20px;
+}
+
+.page-header {
+	margin-bottom: 20px;
+}
+
+.page-title {
+	font-size: 24px;
+	margin: 0;
+}
+
+.entry-header {
+	margin-bottom: 20px;
+}
+
+.entry-title {
+	font-size: 24px;
+	margin: 0;
+}
+
+.entry-content {
+	margin-bottom: 20px;
+}
+
+.entry-meta {
+	font-size: 14px;
+	margin-bottom: 20px;
+}
+
+/* Sidebar Styles */
+.sidebar {
+	padding: 20px;
+	background-color: #f7f7f7;
+	border: 1px solid #ddd;
+}
+
+.widget {
+	margin-bottom: 20px;
+}
+
+.widget-title {
+	font-size: 18px;
+	margin-bottom: 10px;
+}
+
+.widget a {
+	color: #333;
+}
+
+.widget a:hover {
+	color: #007bff;
+}
+
+/* Footer Styles */
+.site-footer {
+	background-color: #f7f7f7;
+	padding: 20px;
+	border-top: 1px solid #ddd;
+	font-size: 
